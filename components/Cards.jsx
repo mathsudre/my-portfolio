@@ -12,7 +12,7 @@ function Cards() {
           <ul className="flex gap-3 py-1 dark:text-white ">
             <li> {item.framework}</li>
           </ul>
-          <a href={item.deploy} target="_blank">
+          <a href={item.deploy} target="_blank" rel="noreferrer">
             <Image
               className="rounded-lg object-cover"
               width={"100%"}
